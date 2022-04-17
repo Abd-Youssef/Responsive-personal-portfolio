@@ -156,6 +156,7 @@ h1, h2, h3, h4{
 
 ul{
     list-style: none;
+    margin: 0;
 }
 
 a{
@@ -256,7 +257,9 @@ img{
     margin-left: var(--mb-0-5);
     margin-right: var(--mb-0-25);
 }
-
+.nav__btns{
+    margin: 0;
+}
 .nav__logo,
 .nav__toggle{
     color: var(--title-color);
@@ -295,7 +298,6 @@ img{
         transition: .5s;
     }
 }
-
 .nav__list{
     grid-template-columns: repeat(3, 1fr);
     gap: 2rem;
